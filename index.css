@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    font-family: 'PT Sans', sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
+    color: white;
+}
+
+.nav-bar {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #E8A87C;
+    justify-content: center;
+    max-width: 12vw;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.introduction {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #C38D9E;
+    text-align: center;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+.about-me {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #41B3A3;
+    text-align: center;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+#name {
+    margin: 2.5vh auto 2.5vh auto;
+}
+
+
+p {
+    margin: auto;
+    width: 75vw;
+    row-gap: 10px;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 2.5vh auto 0 auto;
+}
+
+h2 {
+    margin: 2.5vh auto 2.5vh auto;
+}
+
+img {
+    display: flex;
+    flex: 1;
+    margin: 2.5vh auto 2.5vh auto;
+    height: 12%;
+    width: 12%;
+    border: 3px black solid;
+}
