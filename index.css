@@ -1,4 +1,32 @@
-body {
+/***** Site Wide CSS STYLING *****/
+h1 {
+    margin: 2.5vh auto 0 auto;
+    color: #05386D;
+}
+
+
+h2 {
+    margin: 2.5vh auto 2.5vh auto;
+    color: #05386D;
+}
+
+a {
+    font-size: 27px;
+    margin: 2.5vh auto 2.5vh auto;
+    color: #05386D;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #031a31;
+}
+
+/***** Site Wide CSS STYLING *****/
+
+
+
+/****** HOME PAGE CSS STYLING ******/
+.home-page-body {
     display: flex;
     margin: 0;
     padding: 0;
@@ -6,17 +34,19 @@ body {
     font-family: 'PT Sans', sans-serif;
     min-height: 100vh;
     min-width: 100vw;
-    color: white;
+    color: #05386D;
 }
+
 
 .nav-bar {
     display: flex;
     flex: 1;
     flex-direction: column;
-    background-color: #E8A87C;
+    background-color: #379683;
     justify-content: center;
     max-width: 12vw;
 }
+
 
 .content {
     display: flex;
@@ -24,51 +54,70 @@ body {
     flex-direction: column;
 }
 
+
 .introduction {
     display: flex;
     flex: 1;
     flex-direction: column;
-    background-color: #C38D9E;
+    background-color: #5CDB95;
     text-align: center;
     padding: 10px;
-    border: 1px black solid;
 }
 
-.about-me {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    background-color: #41B3A3;
-    text-align: center;
-    padding: 10px;
-    border: 1px black solid;
-}
 
 #name {
     margin: 2.5vh auto 2.5vh auto;
 }
 
 
-p {
+.about-me {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #BEE4AF;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#about-me-text {
     margin: auto;
     width: 75vw;
     row-gap: 10px;
     font-size: 20px;
 }
 
-h1 {
-    margin: 2.5vh auto 0 auto;
-}
 
-h2 {
-    margin: 2.5vh auto 2.5vh auto;
-}
-
-img {
+#main-image {
     display: flex;
     flex: 1;
     margin: 2.5vh auto 2.5vh auto;
     height: 12%;
     width: 12%;
-    border: 3px black solid;
+    border: 2px black solid;
 }
+
+/****** HOME PAGE CSS STYLING ******/
+
+
+
+/***** RESUME PAGE CSS STYLING *****/
+.resume-body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    font-family: 'PT Sans', sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
+    color: #05386D;
+    background-color: #BEE4AF;
+}
+
+#resume-img {
+    margin: auto;
+    height: 90vh;
+    border: 1px black solid;
+}
+
+/***** RESUME PAGE CSS STYLING *****/
