@@ -10,6 +10,17 @@ h2 {
     color: #05386D;
 }
 
+
+.nav-bar {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #379683;
+    justify-content: center;
+    max-width: 12vw;
+}
+
+
 a {
     font-size: 27px;
     margin: 2.5vh auto 2.5vh auto;
@@ -35,16 +46,6 @@ a:hover {
     min-height: 100vh;
     min-width: 100vw;
     color: #05386D;
-}
-
-
-.nav-bar {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    background-color: #379683;
-    justify-content: center;
-    max-width: 12vw;
 }
 
 
@@ -121,3 +122,33 @@ a:hover {
 }
 
 /***** RESUME PAGE CSS STYLING *****/
+
+
+
+/***** SMALL DEVICE (PHONES) STYLING *****/
+@media only screen and (max-width: 600px) {
+    a {
+        font-size: 15px;
+    }
+
+    .nav-bar {
+        position: fixed;
+        height: 100vh;
+        max-width: 25vw;
+    }
+
+    .content {
+        position: relative;
+        left: 8vw;
+        z-index: -1;
+        font-size: 50%;
+    }
+
+    #resume-img {
+        position: relative;
+        left: 8vw;
+        height: 55vh;
+    }
+}
+
+/***** SMALL DEVICE (PHONES) STYLING *****/
